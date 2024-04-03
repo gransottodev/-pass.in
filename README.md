@@ -20,7 +20,17 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
   $ npm i
 ```
 
-### Documentação da API (Swagger)
+### Realize o build
+```bash
+  $ npm run build
+```
+
+### Rode a aplicação
+```bash
+  $ npm run start
+```
+
+## Documentação da API (Swagger)
 Para documentação da API, acesse o link: https://localhost/docs
 
 ## Requisitos
