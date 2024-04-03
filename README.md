@@ -8,8 +8,22 @@ Os participantes inscritos podem emitir uma credencial para check-in no dia do e
 
 O sistema fará um scan da credencial do participante para permitir a entrada no evento.
 
-## Requisitos
+## Manual de instalação.
 
+### Faça o clone do repositório
+```bash
+  $ git clone https://github.com/gransottodev/pass.in
+```
+
+### Instale as dependências
+```bash
+  $ npm i
+```
+
+### Documentação da API (Swagger)
+Para documentação da API, acesse o link: https://localhost/docs
+
+## Requisitos
 ### Requisitos funcionais
 
 - [x] O organizador deve poder cadastrar um novo evento;
@@ -29,9 +43,6 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 - [x] O check-in no evento será realizado através de um QRCode;
 
-## Documentação da API (Swagger)
-
-Para documentação da API, acesse o link: https://localhost/docs
 
 ## Banco de dados
 
